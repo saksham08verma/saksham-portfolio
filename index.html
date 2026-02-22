@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -50,6 +50,17 @@
             background: white;
             color: #111;
             z-index: 1000;
+        }
+
+        .profile-img {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+            border: 4px solid white;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.4);
+            animation: fadeIn 1.5s ease-in-out;
         }
 
         header {
@@ -124,7 +135,7 @@
         .projects {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 25px;;
+            gap: 25px;
         }
 
         footer {
@@ -146,9 +157,10 @@
 <button class="toggle-btn" onclick="toggleMode()" id="modeIcon">🌙</button>
 
 <header>
+    <img src="./WhatsApp Image 2026-02-22 at 13.13.36.jpeg" alt="Saksham Verma" class="profile-img">
     <h1>Saksham Verma</h1>
     <p>Web Developer | C Programmer | Computer Science Student</p>
-    <a href="#projects" class="btn">Why you should hire me?</a>
+    <a href="#contact" class="btn">Hire Me</a>
 </header>
 
 <section>
@@ -178,7 +190,7 @@
     </div>
 </section>
 
-<section id="projects">
+<section>
     <h2>Projects</h2>
     <div class="projects">
         <div class="card">
@@ -200,8 +212,8 @@
     <h2>Contact</h2>
     <div class="card">
         <p>Email: <a href="mailto:saksham08verma@gmail.com">saksham08verma@gmail.com</a></p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/Saksham Verma1" target="_blank">linkedin.com/in/Saksham Verma1</a></p>
-        <p>GitHub: <a href="https://github.com/saksham08verma" target="_blank">github.com/saksham08verma</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>
+        <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
     </div>
 </section>
 
@@ -235,5 +247,3 @@
 
 </body>
 </html>
-
-       
